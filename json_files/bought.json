@@ -1,0 +1,114 @@
+{
+    "2320559723728": {
+        "id": "2320559723728",
+        "product_name": "Banana",
+        "buy_date": "2023-03-11",
+        "buy_price": "80",
+        "expiration_date": "2023-03-20"
+    },
+    "1714812704272": {
+        "id": "1714812704272",
+        "product_name": "Apple",
+        "buy_date": "2023-03-10",
+        "buy_price": "60",
+        "expiration_date": "2023-03-26"
+    },
+    "2613088441168": {
+        "id": "2613088441168",
+        "product_name": "Lemon",
+        "buy_date": "2023-03-10",
+        "buy_price": "10",
+        "expiration_date": "2023-03-15"
+    },
+    "2682389354320": {
+        "id": "2682389354320",
+        "product_name": "Banana",
+        "buy_date": "2023-03-07",
+        "buy_price": "60",
+        "expiration_date": "2023-03-15"
+    },
+    "2620226493136": {
+        "id": "2620226493136",
+        "product_name": "Orange",
+        "buy_date": "2023-03-11",
+        "buy_price": "120",
+        "expiration_date": "2023-03-24"
+    },
+    "2195924086992": {
+        "id": "2195924086992",
+        "product_name": "Lemon",
+        "buy_date": "2023-03-10",
+        "buy_price": "30",
+        "expiration_date": "2023-03-16"
+    },
+    "1370453218384": {
+        "id": "1370453218384",
+        "product_name": "Lemon",
+        "buy_date": "2023-03-09",
+        "buy_price": "40",
+        "expiration_date": "2023-03-22"
+    },
+    "2555490358480": {
+        "id": "2555490358480",
+        "product_name": "Lemon",
+        "buy_date": "2023-03-10",
+        "buy_price": "30",
+        "expiration_date": "2023-03-16"
+    },
+    "2030467832144": {
+        "id": "2030467832144",
+        "product_name": "Lemon",
+        "buy_date": "2023-03-13",
+        "buy_price": "30",
+        "expiration_date": "2023-03-22"
+    },
+    "2403815066768": {
+        "id": "2403815066768",
+        "product_name": "Lemon",
+        "buy_date": "2023-03-10",
+        "buy_price": "30",
+        "expiration_date": "2023-03-16"
+    },
+    "1530399297936": {
+        "id": "1530399297936",
+        "product_name": "Lemon",
+        "buy_date": "2023-03-09",
+        "buy_price": "30",
+        "expiration_date": "2023-03-22"
+    },
+    "2152231387600": {
+        "id": "2152231387600",
+        "product_name": "Banana",
+        "buy_date": "2023-03-13",
+        "buy_price": "80",
+        "expiration_date": "2023-03-20"
+    },
+    "2081610004432": {
+        "id": "2081610004432",
+        "product_name": "Lemon",
+        "buy_date": "2023-03-12",
+        "buy_price": "10",
+        "expiration_date": "2023-03-15"
+    },
+    "2251623926992": {
+        "id": "2251623926992",
+        "product_name": "Banana",
+        "buy_date": "2023-03-14",
+        "buy_price": "80",
+        "expiration_date": "2023-03-20"
+    },
+    "2240310054736": {
+        "id": "2240310054736",
+        "product_name": "Banana",
+        "buy_date": "2023-03-14",
+        "buy_price": "80",
+        "expiration_date": "2023-03-20"
+    },
+    "1832638269264": {
+        "id": "1832638269264",
+        "product_name": "Orange",
+        "buy_date": "2023-03-14",
+        "buy_price": "60",
+        "expiration_date": "2023-03-19"
+    }
+}

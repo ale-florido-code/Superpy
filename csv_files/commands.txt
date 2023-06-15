@@ -1,0 +1,29 @@
+python main.py buy --product_name Banana --buy_date --buy_price 80 --expiration_date 2023-03-20
+python main.py buy --product_name Orange --buy_date --buy_price 120 --expiration_date 2023-03-24
+python main.py buy --product_name Apple --buy_date -1 --buy_price 60 --expiration_date 2023-03-26
+python main.py buy --product_name Lemon --buy_date -1 --buy_price 10 --expiration_date 2023-03-15
+python main.py buy --product_name Apple --buy_date -2 --buy_price 20 --expiration_date 2023-03-18
+python main.py buy --product_name Orange --buy_date -3 --buy_price 40 --expiration_date 2023-03-16
+python main.py buy --product_name Banana --buy_date -4 --buy_price 60 --expiration_date 2023-03-15
+python main.py buy --product_name Lemon --buy_date -1 --buy_price 44 --expiration_date 2023-03-15
+
+python main.py buy --product_name Lemon --buy_date -2 --buy_price 55 --expiration_date 2023-03-16
+python main.py buy --product_name Lemon --buy_date -4 --buy_price 30 --expiration_date 2023-03-16
+
+python main.py buy --product_name Apple --buy_date -3 --buy_price 55 --expiration_date 2023-03-23
+
+python main.py buy --product_name Banana --buy_date -2 --buy_price 44 --expiration_date 2023-03-18
+
+python main.py buy --product_name Orange --buy_date -1 --buy_price 52 --expiration_date 2023-03-20
+
+py main.py sell --id 2476835674256 --sell_date -2 --sell_price 85
+py main.py sell --id 2152695207888 --sell_date -3 --sell_price 66
+py main.py sell --id 2069843155472 --sell_date -3 --sell_price 92
+py main.py sell --id 1405651573968 --sell_date -2 --sell_price 88
+py main.py sell --id 2016147465680 --sell_date -2 --sell_price 102
+py main.py sell --id 2100728486928 --sell_date -1 --sell_price 99
+py main.py sell --id 2698162395664 --sell_date -1 --sell_price 72
+py main.py sell --id 2028130458320 --sell_date -4 --sell_price 88
+py main.py sell --id 1874510404688 --sell_date -5 --sell_price 102
+
+py main.py report --profit 2023-03-11
