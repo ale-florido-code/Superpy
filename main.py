@@ -202,6 +202,28 @@ def main():
         required=False,
     )
 
+    # add arguments DATE
+    date_parser = subparsers.add_parser(
+        'date', help='Change the current date')
+    date_parser.set_defaults(func=d.change_date)
+
+    date_parser.add_argument(
+        "--set",
+        type=d.datetime.date.fromisoformat,
+        action="store",
+        dest="set_date",
+        help="Set the current date - format YYYY-MM-DD",
+        required=False,
+    )
+
+    date_parser.add_argument(
+        "--advance",
+        type=int,
+        action="store",
+        dest="advance_days",
+        help="Advance the current date by the number of days",
+        required=False,
+
     # This is for the subparsers. Otherwise it will be a mess in the help section!
     if len(sys.argv) <= 1:
         sys.argv.append('--help')
