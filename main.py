@@ -34,7 +34,7 @@ def main():
     # subparser SELL
     sell = subparsers.add_parser(
         'sell', help='For more help options type: python main.py sell -h')
-    sell.set_defaults(func=ma.sell)
+    sell.set_defaults(func=sell_product)  # Use custom function 'sell_product' for 'sell' subcommand
 
     # subparser REPORT
     report = subparsers.add_parser(
