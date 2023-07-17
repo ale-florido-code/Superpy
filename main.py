@@ -229,6 +229,7 @@ def main():
         sys.argv.append('--help')
 
     args = parser.parse_args()
+    
     # Check if 'date' option is selected
 if args.command == 'date':
     # Check if '--set' argument is provided
@@ -239,7 +240,6 @@ if args.command == 'date':
         d.advance_date(args.advance_days)
 else:
     # Execute the function corresponding to the selected sub-option
-    args.func(args)
     args.func(args)
 
 
