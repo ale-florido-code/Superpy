@@ -110,6 +110,23 @@ def main():
         nargs="?",
     )
 
+    def report(args):
+    if args.profit:
+        # Calculate the profit margin
+        profit_margin = calculate_profit_margin(args.profit)
+
+        # Adjust the profit margin to display as a percentage
+        profit_margin_percentage = profit_margin * 100
+
+        # Print the profit margin with the correct format
+        print(f"Profit margin for {args.profit}: {profit_margin_percentage:.2f}%")
+    else:
+        # Perform the rest of the logic to generate the report
+        # ...
+
+# ...
+
+    
     # add arguments REPORT
     report.add_argument(
         "--revenue",
@@ -128,6 +145,30 @@ def main():
         help="Report margin profit specific date - format date YYYY-MM-DD",
         required=False,
     )
+
+    # ...
+
+# This is for the subparsers. Otherwise it will be a mess in the help section!
+if len(sys.argv) <= 1:
+    sys.argv.append('--help')
+
+args = parser.parse_args()
+
+# Check if 'date' option is selected
+if args.command == 'date':
+    # Check if '--set' argument is provided
+    if args.set_date:
+        d.change_date(args.set_date)
+    # Check if '--advance' argument is provided
+    elif args.advance_days:
+        d.advance_date(args.advance_days)
+else:
+    # Execute the function corresponding to the selected sub-option
+    args.func(args)
+
+
+if __name__ == "__main__":
+    main()
 
     report.add_argument(
         "--graph_margin",
