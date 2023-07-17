@@ -39,7 +39,7 @@ def main():
     # subparser REPORT
     report = subparsers.add_parser(
         'report', help='For more help options type: python main.py report -h')
-    report.set_defaults(func=ma.report)
+    report.set_defaults(func=report) # Use custom function 'report' for 'report' subcommand
 
     # subparser Json
     json = subparsers.add_parser(
