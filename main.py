@@ -16,7 +16,6 @@ __human_name__ = "superpy"
 def main():
     # prints
     print(d.time_now)
-    d.write_date_text()
 
     parser = argparse.ArgumentParser(
         prog="Superpy",
