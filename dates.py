@@ -24,7 +24,7 @@ def write_date_text():
         f.write(date_now)
 
 def change_date(new_date):
-    new_date = datetime.datetime.now().strftime("%Y-%m-%d" "%H:%M:%S")
+    # new_date = datetime.datetime.now().strftime("%Y-%m-%d" "%H:%M:%S")
 
     with open("date_now.txt", "w") as file:
          file.write(new_date)
