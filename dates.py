@@ -23,7 +23,7 @@ def write_date_text():
     with open(pa.full_path_text, 'w') as f:
         f.write(date_now)
 
-def change_date():
+def change_date(new_date):
     new_date = datetime.datetime.now().strftime("%Y-%m-%d" "%H:%M:%S")
 
     with open("date_now.txt", "w") as file:
