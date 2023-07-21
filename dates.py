@@ -13,8 +13,12 @@ yesterday = yesterday_full.strftime("%Y-%m-%d")
 
 def choose_days_back(number_days):
     dagen = int(number_days)
-    daysback = my_date_now + timedelta(dagen)
+    with open(pa.full_path_text, 'r') as f:
+        old_date = ...
+    daysback = old_date + timedelta(dagen)
     daysbackcIso = daysback.strftime("%Y-%m-%d")
+
+    write_date_text(daysbackIso)
     return daysbackcIso
 
 
